@@ -1,0 +1,8 @@
+1. Total_Categories = DISTINCTCOUNT('Blinkit-Grocery-Data-Cleaned'[item_type])
+2. Total_items=DISTINCTCOUNT('Blinkit-Grocery-Data-Cleaned'[item_visibility])
+3. Total_sales=sum('Blinkit-Grocery-Data-Cleaned'[sales])
+4. Avg_rating=AVERAGE('Blinkit-Grocery-Data-Cleaned'[rating])
+5. Total_outlets = DISTINCTCOUNT('Blinkit-Grocery-Data-Cleaned'[outlet_identifier])
+6. Avg_visibility = AVERAGE('Blinkit-Grocery-Data-Cleaned'[item_visibility])
+7. Avg_sales_per_outlet = DIVIDE([Total_sales],DISTINCTCOUNT('Blinkit-Grocery-Data-Cleaned'[outlet_identifier]))
+8. Avg_weight=AVERAGE('Blinkit-Grocery-Data-Cleaned'[item_weight])
