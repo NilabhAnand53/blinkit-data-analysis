@@ -99,7 +99,7 @@ blinkit-data-analysis/
 ├── reports/
 │   └── blinkit-analysis.pbix
 ├── dax/
-│   └── measures.dax
+│   └── measures.txt
 ├── docs/
 │   └── business-questions.txt
 └── screenshots/
