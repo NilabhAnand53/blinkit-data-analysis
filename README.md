@@ -89,23 +89,23 @@ Comparisons by establishment year describe outlet cohorts. A column chart would 
 
 ```text
 blinkit-data-analysis/
-├── LICENSE
-├── README.md
 ├── data/
 │   ├── raw/
-│   │   └── blinkit-grocery-raw.csv
+│   │   └── BlinkIT-Grocery-Data_Raw.csv
 │   └── processed/
-│       └── blinkit-cleaned.xlsx
-├── reports/
-│   └── blinkit-analysis.pbix
+│       └── blinkit_clean.xlsx
 ├── dax/
 │   └── measures.txt
 ├── docs/
-│   └── business-questions.txt
-└── screenshots/
-    ├── executive-summary.png
-    ├── product-outlet-analysis.png
-    └── outlet-performance.png
+│   └── BlinkitQuestions.txt
+├── reports/
+│   └── blinkit_repo.pbix
+├── screenshots/
+│   ├── executive_summary.png
+│   ├── product_and_outlet_analysis.png
+│   └── outlet_performance.png
+├── LICENSE
+└── README.md
 ```
 
 This is the suggested structure. Include only files actually uploaded and update this tree to match them. The DAX file should contain formulas copied from the final report. A complete reproduction also requires the prepared data or saved Power Query transformations.
