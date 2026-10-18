@@ -95,10 +95,13 @@ blinkit-data-analysis/
 │   └── processed/
 │       └── blinkit_clean.xlsx
 ├── dax/
+│   ├── README.md
 │   └── measures.txt
 ├── docs/
-│   └── BlinkitQuestions.txt
+│   ├── BlinkitQuestions.txt
+│   └── README.md
 ├── reports/
+│   ├── README.md
 │   └── blinkit_repo.pbix
 ├── screenshots/
 │   ├── executive_summary.png
@@ -107,6 +110,3 @@ blinkit-data-analysis/
 ├── LICENSE
 └── README.md
 ```
-
-This is the suggested structure. Include only files actually uploaded and update this tree to match them. The DAX file should contain formulas copied from the final report. A complete reproduction also requires the prepared data or saved Power Query transformations.
-
